@@ -1,0 +1,31 @@
+<body>
+    <div style="text-align:center">
+        <h1>
+            My Thoughts
+        </h1>
+        <button id="newThought" (click)="toggle()">New Thought</button><br>
+        <ng-container *ngIf="show">
+            <app-post-form (add)="addPost($event)" title="titleInput" thought="thoughtInput"></app-post-form>
+        </ng-container>
+
+        <div id="post">
+            <p class="newPost">{{post}}
+            </p>
+            <p *ngFor="let list of postList, let i =index">
+                {{list.title}}
+                <br>{{list.thought}}<i class="material-icons" (click)="removePost(list)">clear</i>
+
+            </p>
+        </div>
+
+
+
+        <router-outlet></router-outlet>
+
+
+
+
+
+    </div>
+
+</body>

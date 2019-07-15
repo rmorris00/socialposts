@@ -1,0 +1,12 @@
+<ng-container *ngIf="show1">
+    <div id="postForm">
+        <br>
+        <p>Title</p>
+        <input type="text" placeholder="Post title" class='postInput' [(ngModel)]="titleInput" />
+        <br>
+        <p>Thought</p>
+        <input type="text" class='postInput' id="thoughtInput" [(ngModel)]="thoughtInput" /><br>
+        <button (click)="addMethod()" (click)="toggle()" class="addButton">Add Post</button>
+
+    </div>
+</ng-container>

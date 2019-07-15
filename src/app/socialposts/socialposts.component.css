@@ -1,0 +1,38 @@
+.newPost {
+    white-space: pre-wrap;
+}
+
+body {
+    background-color: #F3F2F8;
+    font-family: "Gill Sans", sans-serif;
+}
+
+h1 {
+    font-family: cursive;
+    color: #489FE1;
+}
+
+#post {
+    background-color: white;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.material-icons {
+    text-align: right;
+}
+
+#newThought {
+    width: 50%;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    background-color: white;
+}

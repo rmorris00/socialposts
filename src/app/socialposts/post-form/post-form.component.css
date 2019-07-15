@@ -1,0 +1,30 @@
+#postForm {
+    background-color: #B1DDEA;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 30px;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.postInput {
+    width: 85%;
+    height: 30px;
+}
+
+#thoughtInput {
+    height: 130px;
+}
+
+.addButton {
+    width: 86%;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    background-color: white;
+}
